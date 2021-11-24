@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header {
+    
+}
+header h1 {
+    
+    float: left;
+    padding: 15px 0;
+}
+header ul {
+    
+    float: right;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+.banner {
+    height: 60vh;
+    background-image: url(jogja2.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
